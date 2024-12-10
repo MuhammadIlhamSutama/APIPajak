@@ -175,4 +175,4 @@ https://umkm-pajak-api-57151910209.asia-southeast2.run.app
 
 ## License
 
-This project is licensed under the MIT License.
+Muhammad Ilham Sutama
