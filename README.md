@@ -22,7 +22,6 @@ Ensure the following software is installed on your system:
 
    ```bash
    git clone https://github.com/MuhammadIlhamSutama/APIPajak.git
-   cd 
    ```
 
 2. Install dependencies in google cloud console.
@@ -147,16 +146,16 @@ https://umkm-pajak-api-57151910209.asia-southeast2.run.app
 - **Request Body:**
   ```json
   {
-    "penghasilan": 100000000,
-    "hargaPokok": 30000000,
-    "biayaUsaha": 20000000,
-    "golongan": "K/2"
-  }
+  "penghasilan": 2400000000,
+  "hargaPokok": 1500000000,
+  "biayaUsaha": 500000000,
+  "golongan": "TK/0"
+   }
   ```
 - **Response:**
   ```json
   {
-    "totalPajak": 1750000
+    "totalPajak": 55500000
   }
   ```
 
