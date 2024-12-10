@@ -94,7 +94,9 @@ Ensure the following software is installed on your system:
 
 
 The Original API is can be accessed at:
-(https://umkm-pajak-api-57151910209.asia-southeast2.run.app)
+```bash
+https://umkm-pajak-api-57151910209.asia-southeast2.run.app
+```
 
 ## Usage
 - **Endpoint:** `/calculate-under2025`
@@ -120,21 +122,22 @@ The Original API is can be accessed at:
 - **Request Body:**
   ```json
   {
-    "penghasilan": 80000000,
-    "golongan": "K/0",
-    "norma": 20
-  }
+    "penghasilan":1200000000,
+    "golongan":"TK/0",
+    "norma": 30
+   }
+
   ```
 - **Response:**
   ```json
-  {
-    "penghasilan": 80000000,
-    "penghasilanNetto": 16000000,
-    "ptkp": 58500000,
-    "pkp": 0,
-    "PPHTerutang": 0,
-    "taxAmount": 0
-  }
+    {
+       "penghasilan": 1200000000,
+       "penghasilanNetto": 360000000,
+       "ptkp": 54000000,
+       "pkp": 306000000,
+       "PPHTerutang": 3791666.6666666665,
+       "taxAmount": 3791667
+    }
   ```
 
 ### **3. Calculate Progressive Tax for Businesses**
