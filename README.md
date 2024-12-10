@@ -175,4 +175,4 @@ https://umkm-pajak-api-57151910209.asia-southeast2.run.app
 
 ## License
 
-Muhammad Ilham Sutama
+Copyright (c) 2024 Muhammad Ilham Sutama
