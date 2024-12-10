@@ -166,6 +166,9 @@ https://umkm-pajak-api-57151910209.asia-southeast2.run.app
 - **Node.js**
 - **Express.js**
 - **CORS**
+- **Cloud Run**
+- **Docker**
+- **Google Cloud Console**
 
 
 - All errors are returned in JSON format with an appropriate error message.
