@@ -139,7 +139,8 @@ https://umkm-pajak-api-57151910209.asia-southeast2.run.app
        "taxAmount": 3791667
     }
   ```
-
+- untuk mengetahui jumlah norma kena pajak anda dapat melihatnya pada situs berikut [klu](https://datacenter.ortax.org/ortax/norma/norma)
+  
 ### **3. Calculate Progressive Tax for Businesses**
 - **Endpoint:** `/calculate-pembukuan-progresif`
 - **Method:** POST
