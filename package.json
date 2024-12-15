@@ -1,0 +1,27 @@
+{
+  "name": "umkmpajakapi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "This project provides an Express.js-based API for calculating various types of taxes. It includes endpoints for different tax calculation scenarios, including progressive tax rates, specific business types, and future tax policies.",
+  "dependencies": {
+    "@google-cloud/dialogflow-cx": "^4.9.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MuhammadIlhamSutama/api-pajak-umkm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MuhammadIlhamSutama/api-pajak-umkm/issues"
+  },
+  "homepage": "https://github.com/MuhammadIlhamSutama/api-pajak-umkm#readme"
+}

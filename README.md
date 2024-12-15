@@ -94,7 +94,7 @@ Ensure the following software is installed on your system:
 
 The Original API is can be accessed at:
 ```bash
-https://umkm-pajak-api-57151910209.asia-southeast2.run.app
+ https://diagflowapi-1071674645783.asia-southeast2.run.app/
 ```
 
 ## Usage
@@ -158,6 +158,20 @@ https://umkm-pajak-api-57151910209.asia-southeast2.run.app
     "totalPajak": 55500000
   }
   ```
+### **4. SATA-Chatbot**
+- **Endpoint:** `/chat`
+- **Method:** POST
+- **Request Body:**
+  ```json
+  {
+    "message": "siapa kamu"
+  }
+  ```json
+  {
+    "reply": [
+        "Saya adalah asisten AI dan saya dibuat untuk membantu Anda di situs web SATA-Comp. Bagaimana saya dapat membantu Anda hari ini?"
+    ]
+  }  
 
 ---
 

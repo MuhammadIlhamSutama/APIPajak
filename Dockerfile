@@ -1,18 +1,20 @@
-# Use Node.js LTS version as the base image
-FROM node:18
+FROM node:20-alpine
 
-# Set the working directory inside the container
-WORKDIR /usr/src/app
+# Set working directory
+WORKDIR /app
 
-# Copy package.json and install dependencies
-COPY package*.json ./
-RUN npm install
+# Copy package files first to leverage Docker caching
+COPY package.json package-lock.json ./
 
-# Copy the rest of the application code
+# Install dependencies
+RUN npm ci
+
+# Copy application files
 COPY . .
 
-# Expose the port that the app runs on
-EXPOSE 8080
+# Expose port dynamically
+ENV PORT=8080
+EXPOSE $PORT
 
-# Command to start the server
-CMD [ "npm", "start" ]
+# Command to start the application
+CMD ["node", "app.js"]
