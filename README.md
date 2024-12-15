@@ -8,6 +8,7 @@ This API provides endpoints for calculating taxes, including under specific regu
 - Tax calculation under 2025 rules
 - Tax calculation for 2025 and beyond
 - Progressive tax calculation based on bookkeeping
+- Chat-bot ai assistant 
 
 ## Prerequisites
 
@@ -70,7 +71,7 @@ Ensure the following software is installed on your system:
   Deploy the image to Google Cloud Run with the following command:
   
   ```bash
-  gcloud run deploy tax-api \
+  gcloud run deploy diagflowapi \
     --image gcr.io/<PROJECT_ID>/tax-api \
     --platform managed \
     --region <REGION> \
@@ -84,7 +85,7 @@ Ensure the following software is installed on your system:
 
   # Here s the example of the deployment looks like ( after clone )
 
-   gcloud run deploy apilogin-pajak   --image gcr.io/easytax-d09d2/easytax-api:latest   --platform managed   --region asia-southeast2   --allow-unauthenticated
+   gcloud run deploy diagflowapi   --image gcr.io/easytax-d09d2/easytax-api:latest   --platform managed   --region asia-southeast2   --allow-unauthenticated
   
   ### 5. **Test Your API**
   Once deployed, Google Cloud Run will provide a URL for your API. Test it using tools like `curl` or Postman.
