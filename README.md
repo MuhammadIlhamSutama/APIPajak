@@ -55,7 +55,7 @@ Ensure the following software is installed on your system:
   Run the following command to build the Docker image:
   
   ```bash
-  docker build -t gcr.io/<PROJECT_ID>/tax-api .
+  docker build -t gcr.io/<PROJECT_ID>/diagflowapi .
   ```
   
   Replace `<PROJECT_ID>` with your Google Cloud Project ID.
@@ -64,7 +64,7 @@ Ensure the following software is installed on your system:
   Push the built image to Google Container Registry using the following command:
   
   ```bash
-  docker push gcr.io/<PROJECT_ID>/tax-api
+  docker push gcr.io/<PROJECT_ID>/diagflowapi
   ```
   
   ### 4. **Deploy the Image to Google Cloud Run**
