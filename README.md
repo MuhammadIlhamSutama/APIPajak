@@ -167,6 +167,8 @@ The Original API is can be accessed at:
   {
     "message": "siapa kamu"
   }
+  ```
+- **Response:**
   ```json
   {
     "reply": [
