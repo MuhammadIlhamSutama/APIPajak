@@ -223,6 +223,10 @@ app.post('/chat', async (req, res) => {
     }
 });
 
+app.get('/health', (req, res) => {
+    res.status(200).send('Healthy');
+});
+
 // Start the server
 app.listen(port, () => {
   console.log(`Server is running on http://localhost:${port}`);
