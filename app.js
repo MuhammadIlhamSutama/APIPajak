@@ -161,7 +161,6 @@ app.post('/calculate-pembukuan-progresif', (req, res) => {
     res.json({ totalPajak: totalPajak });
 });
 
-// POST endpoint for Dialogflow CX agent using Dialogflow SDK
 app.post('/chat', async (req, res) => {
     const userInput = req.body.message; // User's message from the request body
     const languageCode = req.body.language_code || 'id'; // Default to 'en' if no language_code is provided
