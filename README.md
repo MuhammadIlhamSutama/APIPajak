@@ -175,7 +175,16 @@ The Original API is can be accessed at:
         "Saya adalah asisten AI dan saya dibuat untuk membantu Anda di situs web SATA-Comp. Bagaimana saya dapat membantu Anda hari ini?"
     ]
   }  
-
+  ```
+### **5. Sata Uptime Check**
+- **Endpoint:** `/health`
+- **Method:** GET
+- **Response:**
+  ```json
+  {
+    "status": "Healthy"
+  } 
+  ```
 ---
 
 ## 🛠 **Technologies Used**
